@@ -2,6 +2,7 @@ schema_version: 1
 
 context:
   version: "1.7.1"
+  python_min: "3.10"
 
 package:
   name: gkx
@@ -12,7 +13,7 @@ source:
   sha256: eb020e42bda81ea3222a6b21d8c5bd5b48c0ff79e6890a1de6e49a980edc3700
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -71,5 +72,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - rogeriojorge
     - matthewfeickert
     - RKHashmani
