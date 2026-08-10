@@ -202,4 +202,5 @@ Feedstock Maintainers
 
 * [@RKHashmani](https://github.com/RKHashmani/)
 * [@matthewfeickert](https://github.com/matthewfeickert/)
+* [@rogeriojorge](https://github.com/rogeriojorge/)
 
