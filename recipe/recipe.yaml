@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   version: "1.8.0"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: gkx
@@ -28,16 +28,15 @@ requirements:
   run:
     - python >=${{ python_min }}
     - numpy
-    - jax
-    - jaxlib
+    - jax >=0.10.1
+    - jaxlib >=0.10.1
     - matplotlib-base
     - scipy
     - netcdf4
     - diffrax
     - equinox
-    - solvax
-    # python < 3.11
-    - tomli
+    - solvax >=0.12.0
+    - booz-xform-jax
     - tqdm
 
 tests:
