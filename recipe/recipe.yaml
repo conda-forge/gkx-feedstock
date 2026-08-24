@@ -1,8 +1,8 @@
 schema_version: 1
 
 context:
-  version: "1.7.1"
-  python_min: "3.10"
+  version: "1.8.0"
+  python_min: "3.11"
 
 package:
   name: gkx
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gkx/gkx-${{ version }}.tar.gz
-  sha256: eb020e42bda81ea3222a6b21d8c5bd5b48c0ff79e6890a1de6e49a980edc3700
+  sha256: f8a34c46fb4acf5702eee3bafa11cb8fb2ab9724c06b3cfc9ee201a394986295
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -28,16 +28,15 @@ requirements:
   run:
     - python >=${{ python_min }}
     - numpy
-    - jax
-    - jaxlib
+    - jax >=0.10.1
+    - jaxlib >=0.10.1
     - matplotlib-base
     - scipy
     - netcdf4
     - diffrax
     - equinox
-    - solvax
-    # python < 3.11
-    - tomli
+    - solvax >=0.12.0
+    - booz-xform-jax
     - tqdm
 
 tests:
