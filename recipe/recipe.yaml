@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.3.0"
+  version: "2.4.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gkx/gkx-${{ version }}.tar.gz
-  sha256: 8458524e4a43146e431e059713fc17c54cdb5c83db67d1ec9c23a1054eb84a02
+  sha256: 5d1c6eafc8f01de93d67c5f832a5483459cabba0a9d1d487b2bf4be99ffa695a
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - matplotlib-base
     - scipy
     - netcdf4
-    - solvax >=0.22.0
+    - solvax >=0.26.0
     - booz-xform-jax
     - tqdm
 
