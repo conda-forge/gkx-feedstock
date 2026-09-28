@@ -13,7 +13,7 @@ source:
   sha256: c2e1e46a1c73b70c89269c76ecb53cd113a27539ffd49415276b50259be2eaba
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -33,8 +33,6 @@ requirements:
     - matplotlib-base
     - scipy
     - netcdf4
-    - diffrax
-    - equinox
     - solvax >=0.12.0
     - booz-xform-jax
     - tqdm
