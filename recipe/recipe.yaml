@@ -33,7 +33,7 @@ requirements:
     - matplotlib-base
     - scipy
     - netcdf4
-    - solvax >=0.12.0
+    - solvax >=0.22.0
     - booz-xform-jax
     - tqdm
 
