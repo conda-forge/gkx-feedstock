@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.4.2"
+  version: "2.5.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gkx/gkx-${{ version }}.tar.gz
-  sha256: dd24d696ea4fd7193a3736c8e58bd0b2bb3e6bc18fe002b3b35a1b0c8660d197
+  sha256: a7c0a0cd1c78e7c42c8c9755d8d4bf9ca2732a41639ddd2e3b5a11687bd49a95
 
 build:
   number: 0
