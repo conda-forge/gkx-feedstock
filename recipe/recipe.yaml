@@ -34,7 +34,7 @@ requirements:
     - scipy
     - netcdf4
     - solvax >=0.27.0
-    - booz-xform-jax >=0.4.1
+    - booz-xform-jax >=0.4.3
     - tqdm
 
 tests:
