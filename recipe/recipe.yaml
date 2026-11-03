@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/g/gkx/gkx-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/g/gkx/gkx-${{ version }}.tar.gz
   sha256: 0f81a4fc5e9acbf8c341f2e7a43e4bdc0a5b645779a4f8e712ef98ca728b063f
 
 build:
